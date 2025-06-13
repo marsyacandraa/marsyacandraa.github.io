@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marsya Candra Agustin | Portofolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- AOS CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+ 
+<!-- AOS JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    AOS.init({
+      duration: 1000, // Durasi animasi dalam milidetik (1000ms = 1 detik)
+      once: true // Animasi hanya berjalan sekali saat pertama kali muncul
+    });
+  });
+</script>
+
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+ <style>
+   .profile-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #d87eb4;
+  box-shadow: 0 0 20px rgba(199, 68, 120, 0.3);
+  animation: pulse 3s infinite;
+  transition: transform 0.3s ease;
+}
+@keyframes pulse {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(247, 140, 190, 0.5); }
+  70% { transform: scale(1.05); box-shadow: 0 0 0 20px rgba(0, 123, 255, 0); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(0, 123, 255, 0); }
+}
+
+
+    body {
+      scroll-behavior: smooth;
+    }
+    .navbar {
+      background-color: hsl(325, 99%, 73%);
+    }
+    .navbar-brand, .nav-link {
+      color: white !important;
+    }
+    .navbar-brand:hover, .nav-link:hover {
+      color: hsl(325, 99%, 73%) !important;
+    }
+    section {
+      padding: 60px 0;
+    }
+    .bg-blue {
+      background-color: #d87eb4;
+    }
+    .progress-bar {
+      font-weight: bold;
+    }
+    footer {
+      background-color: #d87eb4;
+      color: white;
+    }
+  </style>
+
+  </head>
+  <body>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+   <div class="container">
+      <a class="navbar-brand" href="#home">MyPortfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+         <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+         </ul>
+      </div>
+   </div>
+</nav>
+<!-- Home Section -->
+<section id="home" class="vh-200 d-flex align-items-center text-center bg-blue" data-aos="fade-in">
+    <div class="container">
+      <h1 class="display-4"> <strong>Marsya Candra Agustin</strong></h1>
+      <p class="lead">Pelajar di SMKN 1 Nganjuk, jurusan Pngembangan GIM</p>
+      <div class="mb-4" data-aos="zoom-in">
+      <img src="fotoMarsya.jpeg" alt="Foto Marsya Candra Agustin" class="profile-photo">
+   </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5 bg-white" data-aos="fade-right">
+   <div class="container py-5">
+      <div class="row">
+         <div class="col-lg-6 mx-auto text-center">
+            <h2>About Me</h2>
+            <p>I am a dedicated developer with a focus on creating clean, functional, and responsive websites. I have
+               a passion for coding and a love for learning new technologies to improve my skills.</p>
+         </div>
+      </div>
+ 
+      <div class="row mt-4">
+         <!-- Resume -->
+         <div class="col-lg-6">
+            <h3>Resume</h3>
+            <p><strong>Web Developer</strong> - XYZ Company (2022 - Present)</p>
+            <p>Working on various front-end and back-end projects, developing user-friendly interfaces, and enhancing
+               website performance.</p>
+            <p><strong>Graphic Designer</strong> - ABC Agency (2019 - 2022)</p>
+            <p>Designed branding materials, marketing visuals, and UI elements for web and mobile applications.</p>
+         </div>
+ 
+         <!-- Skills -->
+         <div class="col-lg-6">
+            <h3>Skills</h3>
+            <p>HTML</p>
+            <div class="progress mb-3">
+               <div class="progress-bar bg-primary" style="width: 50%;">50%</div>
+            </div>
+            <p>CSS</p>
+            <div class="progress mb-3">
+               <div class="progress-bar bg-success" style="width: 50%;">50%</div>
+            </div>
+            <p>JavaScript</p>
+            <div class="progress mb-3">
+               <div class="progress-bar bg-warning" style="width: 50%;">50%</div>
+            </div>
+            <p>Graphic Design</p>
+            <div class="progress mb-3">
+               <div class="progress-bar bg-danger" style="width: 70%;">70%</div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="py-5 bg-light">
+   <div class="container">
+      <h2 class="text-center" data-aos="fade-up">My Portfolio</h2>
+      <div class="row">
+         <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in">
+            <div class="card">
+               <a href="blenderProject.png" data-lightbox="portofolio" data-title="Project 1">
+                  <img src="logoBlender.jpg" class="card-img-top img-fluid" alt="Project 1">
+               </a>
+                <div class="card-body">
+                  <h5 class="card-title">Project 1</h5>
+                  <p class="card-text">Description of the first project.</p>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="card">
+                <a href="adobeProject.jpg" data-lightbox="portfolio" data-title="Project 2">
+                  <img src="logoAdobe.jpg" class="card-img-top img-fluid" alt="Project 2">
+               </a>
+               <div class="card-body">
+                  <h5 class="card-title">Project 2</h5>
+                  <p class="card-text">Description of the second project.</p>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="400">
+            <div class="card">
+             <a href="unityProject.png" data-lightbox="portfolio" data-title="Project 3">
+                  <img src="logoUnity.jpg" class="card-img-top img-fluid" alt="Project 3">
+               </a>
+               <div class="card-body">
+                  <h5 class="card-title">Project 3</h5>
+                  <p class="card-text">Description of the third project.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5 bg-white">
+    <div class="container" data-aos="fade-up">
+      <h2 class="text-center">Contact Me</h2>
+      <div class="row">
+         <div class="col-lg-6 mx-auto text-center">
+            <p><i class="fas fa-envelope"></i> candramarsya@gmail.com</p>
+            <p><i class="fas fa-phone"></i> +62 853 354 676 32</p>
+            <p><i class="fas fa-map-marker-alt"></i> Sukomoro, Nganjuk, Indonesia</p>
+         </div>
+      </div>
+   </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center py-4 bg-light">
+   <div class="container">
+      <p>&copy; 2025 MyPortfolio. All rights reserved.</p>
+   </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      <!-- Lightbox2 JS -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox-plus-jquery.min.js"></script>
+  </body>
+</html>
